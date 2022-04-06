@@ -16,5 +16,5 @@ public class ParkingSpotController {
         this.parkingSpotService = parkingSpotService;
     }
 
-    
+
 }
