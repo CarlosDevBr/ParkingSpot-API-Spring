@@ -15,7 +15,7 @@ public class ParkingSpotDto {
     private String licensePlateCar;
 
     @NotBlank
-    private String brandcar;
+    private String brandCar;
 
     @NotBlank
     private String modelCar;
@@ -48,12 +48,12 @@ public class ParkingSpotDto {
         this.licensePlateCar = licensePlateCar;
     }
 
-    public String getBrandcar() {
-        return brandcar;
+    public String getBrandCar() {
+        return brandCar;
     }
 
-    public void setBrandcar(String brandcar) {
-        this.brandcar = brandcar;
+    public void setBrandCar(String brandcar) {
+        this.brandCar = brandcar;
     }
 
     public String getModelCar() {
