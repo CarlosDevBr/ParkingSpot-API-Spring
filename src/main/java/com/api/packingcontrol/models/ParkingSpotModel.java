@@ -35,6 +35,12 @@ public class ParkingSpotModel implements Serializable {
     @Column(nullable = false, length = 130)
     private String responsibleName;
 
+    @Column(nullable = false)
+    private String apartment;
+
+    @Column(nullable = false)
+    private String block;
+
     public UUID getId() {
         return id;
     }
@@ -97,5 +103,21 @@ public class ParkingSpotModel implements Serializable {
 
     public void setResponsibleName(String responsibleName) {
         this.responsibleName = responsibleName;
+    }
+
+    public String getApartment() {
+        return apartment;
+    }
+
+    public void setApartment(String apartment) {
+        this.apartment = apartment;
+    }
+
+    public String getBlock() {
+        return block;
+    }
+
+    public void setBlock(String block) {
+        this.block = block;
     }
 }
